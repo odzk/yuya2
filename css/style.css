@@ -75,10 +75,10 @@ body {
 }
 
 .maru h1 {
-	font-size: 1.1em !important;
-	margin-top: 20px !important;
+	font-size: 1.0em !important;
+	margin-top: 25px !important;
 	margin-right: 15px !important;
-	margin-left: 15px !important;
+	margin-left: 18px !important;
 	text-align: left;
 	line-height: 15px!important;
 	transform : rotate(20deg);
@@ -90,7 +90,7 @@ body {
 }
 
 .header p {
-	font-size: .7em !important;
+	font-size: .7em;
 }
 
 .article-1 .title {
@@ -124,6 +124,7 @@ body {
 .article-1 .arrow_box p {
 	margin-top: 10px !important;
 	margin-bottom: 10px !important;
+	font-size: 0.7em;
 }
 
 .arrow_box { 
@@ -167,10 +168,19 @@ body {
 
 .comment {
 	width: 100% !important;
-	padding: 20px !important;
 	margin: 0 !important;
 	color: #000 !important;
 	position: relative !important;
+}
+
+.c1 {
+	font-size: 0.9em !important;
+	padding: 20px !important;
+}
+
+.c2 {
+	font-size: 0.9em !important;
+	padding: 0 20px !important;
 }
 
 .box-img {
@@ -180,14 +190,46 @@ body {
 .box-lf {
 color: #000 !important;
 text-align: center;
+font-size: 1.3em !important;
 }
 
 .box-sf {
 color: #000 !important;
 text-align: center;
+font-size: 1em !important;
+line-height: 2.3em;
+
 }
 /* end*/
 
+.mtop {
+	margin-top: 40px;
+	margin-left: 20px !important;
+	width: 90% !important;
+	border: 1px solid #000;
+}
+
+.mtop2 {
+	margin-top: 20px;
+	margin-left: 20px !important;
+	width: 90% !important;
+	border: 1px solid #000;
+}
+
+.arrow_box-2-c1 {
+	padding-top: 10px !important;
+	font-size: 0.9em !important;
+}
+
+.arrow_box-2-c2 {
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+	font-size: 1.2em !important;
+}
+
+.arrow_box-2 {
+height: auto !important;
+}
 
 /*end of iphone 6s*/
 }
@@ -208,8 +250,8 @@ text-align: center;
 	
 }
 .header p {
-	font-size: 1.2em;
-}
+/*	font-size: 1.2em;
+*/}
 
 .header .header-contents .btn {
 	background-color: #6AC00B;
@@ -324,7 +366,7 @@ text-align: center;
 }
 .article-1 .arrow_box p {
 	color: #000;
-	font-size: 17px;
+	/*font-size: 17px;*/
 	margin-left: 14px;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -404,13 +446,13 @@ text-align: center;
 .content .arrow_box-2-c1  {
 	margin: 0;
 	padding-top:25px;
-	font-size:18px;
-	margin-top: -10px;
+/*	font-size:18px;
+*/	margin-top: -10px;
 }
 .content .arrow_box-2-c2  {
 	margin: 0;
-	font-size:24px;
-	padding-bottom:20px;
+/*	font-size:24px;
+*/	padding-bottom:20px;
 
 }
 .small{
